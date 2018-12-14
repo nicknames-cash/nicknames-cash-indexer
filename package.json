@@ -1,0 +1,34 @@
+{
+  "name": "nicknames-indexer",
+  "version": "0.1.0",
+  "description": "Nicknames.cash indexer and REST API",
+  "author": "Sam Cheng Hung",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicknames-indexer/nicknames-indexer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicknames-indexer/nicknames-indexer/issues"
+  },
+  "homepage": "https://github.com/nicknames-indexer/nicknames-indexer#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bitbox-sdk": "^2.1.1",
+    "bluebird": "^3.5.1",
+    "bottleneck": "^2.7.2",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "eventsource": "^1.0.7",
+    "mongoose": "^5.2.10",
+    "p-iteration": "^1.1.7",
+    "util": "^0.11.0",
+    "winston": "^3.0.0",
+    "winston-transport": "^4.2.0"
+  }
+}

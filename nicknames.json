@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "db": "mongodb",
+  "from": 553840,
+  "actions": {
+    "CLAIM_NICKNAME": "0ff7087b01",
+    "TRANSFER_NICKNAME": "0ff7087b02",
+    "RELEASE_NICKNAME": "0ff7087b03",
+    "SET_AVATAR": "0ff7087b04",
+    "SET_FULLNAME": "0ff7087b05"
+  }
+}
